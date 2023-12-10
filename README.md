@@ -15,8 +15,8 @@ This repository hosts a microservices architecture featuring key components such
 
 1. **Eureka Server:** Manages service registration and discovery. [http://localhost:8761](http://localhost:8761)
 2. **Gateway:** Serves as an entry point for accessing microservices.[http://localhost:8888](http://localhost:8888)
-3. **Car Service:** Responsible for interactions with a MySQL database related to car data.[http://localhost:8089](http://localhost:8089)
-4. **Client Service:** Manages interactions with a MySQL database containing client-related data.[http://localhost:8088](http://localhost:8088)
+3. **Car Service:** Responsible for interactions with a MySQL database related to car data.[http://localhost:8001](http://localhost:8001)
+4. **Client Service:** Manages interactions with a MySQL database containing client-related data.[http://localhost:8002](http://localhost:8002)
 
 ## Usage
 
@@ -49,12 +49,27 @@ This repository hosts a microservices architecture featuring key components such
 
 1. Clone the repository.
  ```bash
-    git clone https://github.com/MouhibMoughtanim/TP-MS
+    git clone [https://github.com/MouhibMoughtanim/TP-MS](https://github.com/MouhibMoughtanim/TP-MS-V)
  ```
 2. Start the Eureka Server.
 3. Launch the Gateway.
 4. Run the Car Service and Client Service.
 5. Access the Eureka interface to view all launched services.[http://localhost:8761](http://localhost:8761)
+
+## Containerization Guide
+### Prerequisites
+ **Make sure you have Docker installed on your machine.**
+### Steps
+1. **Clone the Repository**: 
+   ```bash
+   git clone [https://github.com/Ahmed-Laaziz/microservices_application/edit/master](https://github.com/MouhibMoughtanim/TP-MS-V)
+   cd TP-MS-V
+2. **Run Docker Compose**:
+   ```bash
+   docker compose up
+   
+![image](https://github.com/MouhibMoughtanim/TP-MS-V/assets/101598112/1a3d7600-94de-4eb0-a748-7f481ded0c2d)
+
 
 ## Video Demo
 
@@ -74,4 +89,4 @@ For improved readability of JSON responses, consider downloading a JSON prettify
 - **Documentation:** Facilitates the documentation of API responses for developers.
 ![WhatsApp Image 2023-12-08 à 00 21 24_e1292abf](https://github.com/MouhibMoughtanim/TP-MS/assets/101598112/92db3b65-aca9-482b-8d44-b1937884e606)
 
-Enjoy exploring the TP-MS repository! If you encounter any issues or have questions, feel free to reach out.
+Enjoy exploring the TP-MS-V repository! If you encounter any issues or have questions, feel free to reach out.
