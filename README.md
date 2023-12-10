@@ -49,7 +49,7 @@ This repository hosts a microservices architecture featuring key components such
 
 1. Clone the repository.
  ```bash
-    git clone [https://github.com/MouhibMoughtanim/TP-MS](https://github.com/MouhibMoughtanim/TP-MS-V)
+    git clone https://github.com/MouhibMoughtanim/TP-MS-V
  ```
 2. Start the Eureka Server.
 3. Launch the Gateway.
@@ -62,7 +62,7 @@ This repository hosts a microservices architecture featuring key components such
 ### Steps
 1. **Clone the Repository**: 
    ```bash
-   git clone [https://github.com/Ahmed-Laaziz/microservices_application/edit/master](https://github.com/MouhibMoughtanim/TP-MS-V)
+   git clone https://github.com/MouhibMoughtanim/TP-MS-V
    cd TP-MS-V
 2. **Run Docker Compose**:
    ```bash
