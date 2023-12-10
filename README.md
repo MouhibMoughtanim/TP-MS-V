@@ -25,15 +25,15 @@ This repository hosts a microservices architecture featuring key components such
 
 - API endpoints:
   - `GET /clients`: Retrieve clients information.
-  - `GET /client/{id}`: Retrieve client information by ID.
+  - `GET /clients/{id}`: Retrieve client information by ID.
   <!-- Provide additional usage details or examples -->
 
 ### Car Service
 
 - API endpoints:
   -  `GET /voitures`: Retrieve cars information.
-  - `GET /voiture/{id}`: Retrieve car information by ID.
-  - `GET /voiture/{id}`: Retrieve car information by client ID.
+  - `GET /voitures/{id}`: Retrieve car information by ID.
+  - `GET /voitures/clients/{id}`: Retrieve car information by client ID.
 
 
 
